@@ -1,0 +1,25 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills-heading {
+  font-family: 'bree serif';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 56px;
+  color: #593e52;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .skills-heading {
+    font-family: 'bree serif';
+    font-size: 40px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
